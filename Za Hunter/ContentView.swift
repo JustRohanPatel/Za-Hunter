@@ -49,7 +49,7 @@ struct ContentView: View {
         }
     }
 }
-    
+
 struct Place: Identifiable {
     let id = UUID()
     let mapItem: MKMapItem

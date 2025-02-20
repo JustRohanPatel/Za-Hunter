@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A9A7167D2D5BA4B6007ED4C1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A7167C2D5BA4B6007ED4C1 /* LocationManager.swift */; };
+		A9A717252D678EFE007ED4C1 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A717242D678EFE007ED4C1 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		A9A0AABD2D53BDF6003EF045 /* Za HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A0AAC72D53BDF6003EF045 /* Za HunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Za HunterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9A7167C2D5BA4B6007ED4C1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		A9A717242D678EFE007ED4C1 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		A9A0AAA42D53BDF4003EF045 = {
 			isa = PBXGroup;
 			children = (
+				A9A717242D678EFE007ED4C1 /* LocationDetailsView.swift */,
 				A9A7167C2D5BA4B6007ED4C1 /* LocationManager.swift */,
 				A9A0AAAF2D53BDF4003EF045 /* Za Hunter */,
 				A9A0AAC02D53BDF6003EF045 /* Za HunterTests */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A717252D678EFE007ED4C1 /* LocationDetailsView.swift in Sources */,
 				A9A7167D2D5BA4B6007ED4C1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
